@@ -9,10 +9,10 @@ stdenv.mkDerivation {
   version = "unstable-2023-11-26";
 
   src = fetchFromGitHub {
-    owner = "brauner";
+    owner = "hpsaucii";
     repo = "move-mount-beneath";
-    rev = "d3d16c0d7766eb1892fcc24a75f8d35df4b0fe45";
-    hash = "sha256-hUboFthw9ABwK6MRSNg7+iu9YbiJALNdsw9Ub3v43n4=";
+    rev = "ebbcef2401f77da4e27ac644ffe905103d13d416";
+    sha256 = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=";  # Replace with actual hash
   };
 
   installPhase = ''
